@@ -8,18 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <script>
-        let isScaledDown = false;
-
-        document.body.addEventListener('click', function () {
-            if (isScaledDown) {
-                document.body.style.width = '100%';
-            } else {
-                document.body.style.width = '40%';
-            }
-            isScaledDown = !isScaledDown;
-        });
-    </script>
     <div class="top_style">
         <div class="inner-style">
             <div>
@@ -106,13 +94,13 @@
         <p>Click on this video to check how we work with Our Clients</p>
         <img src="image/ninthimage.jpeg">
     </div>
-    <div class="promotion">
-        <img src="image/tenthimage.jpeg" id="small-image">
+    <div class="content_style">
+        <img src="image/tenthimage.jpeg" id="form-image">
         <div class="size">
             <a href="" class="underlined-links">WHY CHOSE RIAAD</a>
             <h2>We are Leading in Moving Business.</h2>
             <p>Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunced amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo arcium dolors sit amet elit magnis amet ultrices lorem ipsum is simply free text purusrfed aliquet. </p>
-            <p><i class="fa-solid fa-circle-check" id="list"></i>Helping over 250,000 movers in the USA</p>
+             <p><i class="fa-solid fa-circle-check" id="list"></i>Helping over 250,000 movers in the USA</p>
             <p><i class="fa-solid fa-circle-check" id="list"></i>Save 70% of the cost of your moving</p>
             <p><i class="fa-solid fa-circle-check" id="list"></i>Book survey at a time that suits you</p>
         </div>
@@ -146,9 +134,9 @@
                         <input type="number" placeholder="0">
                     </div>
                 </div>
-                <div>
+                <div class="inner_style">
                     <div>
-                        <label for="destination">To</label><br>
+                        <label for="destination">To*</label><br>
                         <input type="text" placeholder="city,state">
                     </div>
                     <button type="button" id="click-button">SEND REQUEST</button>
