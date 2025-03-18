@@ -65,6 +65,9 @@ a{
 .logo{
     display:flex;
     justify-content:space-between;
+    border-image-width: 5%;
+    width:90%;
+    margin:auto;
 }
 #small-image{
     width: 50%;
@@ -90,6 +93,10 @@ a{
 }
 #image{
     width:100%;
+}
+#center-image{
+    width:600px;
+    height:600px;
 }
 .intro_style{
     display: flex;
@@ -118,9 +125,8 @@ a{
     font-weight: bold;
     color:rgb(241, 231, 231);
     cursor:pointer;
-    margin:10px 0;
+    margin:10px 5px;
     text-align: center;
-    border-radius:100px;
 }
 #second-click{
     background: none;
@@ -134,7 +140,6 @@ a{
     cursor:pointer;
     margin:1% 10%;
     text-align: center;
-    border-radius:100px;
 }
 
 .footer-style{
@@ -178,21 +183,33 @@ a{
 }
 .first-part{
     position: relative;
-    border: none;
     background-color: orange;
     width: 40%;
     padding: 4.5% 0 1%;
+    margin-top:-5%;
 }
 form{
     font-family: poppins1;
     border: none;
     background-color: rgb(116, 116, 173);
     width: 60%;
-    padding-left: 6%;
+    padding-left: 4%;
     padding-top: 4%;
+    margin-top: -5%;
+}
+input{
+    font-family: poppins1;
+    height: 80%;
+    width: 130%;
+    border: solid 1px rgb(192, 185, 185);
 }
 #form-image{
     width:90%;
-    height:800px;
+    height:900px;
     margin-left:5%;
+}
+#icon{
+    color:yellow;
+    margin-top:50%;
+
 }
